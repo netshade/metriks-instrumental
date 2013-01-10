@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["chris@fastestforward.com"]
   gem.description   = %q{A Metriks reporter that submits to Instrumental}
   gem.summary       = %q{A Metriks reporter that submits to Instrumental}
-  gem.homepage      = "http://github.com/fastestforward/metriks-instrumental"
+  gem.homepage      = "http://github.com/netshade/metriks-instrumental"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
