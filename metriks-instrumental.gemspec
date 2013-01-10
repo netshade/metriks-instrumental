@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Metriks::Instrumental::VERSION
   gem.authors       = ["Chris Zelenak"]
   gem.email         = ["chris@fastestforward.com"]
-  gem.description   = %q{A Metriks reporter that submits to Instrumental}
-  gem.summary       = %q{A Metriks reporter that submits to Instrumental}
+  gem.description   = %q{A Metriks reporter that submits to Instrumental (https://instrumentalapp.com/)}
+  gem.summary       = %q{A Metriks reporter that submits to Instrumental (https://instrumentalapp.com/)}
   gem.homepage      = "http://github.com/netshade/metriks-instrumental"
 
   gem.files         = `git ls-files`.split($/)
