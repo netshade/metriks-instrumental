@@ -7,6 +7,8 @@ A gem to report your [Metriks][metriks] data to [Instrumental][instrumental].
 Send metrics to [Instrumental][instrumental] every 60 seconds.
 
 ``` ruby
+  require 'metriks-instrumental'
+
   # Using an API key
   reporter = Metriks::Reporter::Instrumental.new(:api_key => "Your Instrumental API key")
 
