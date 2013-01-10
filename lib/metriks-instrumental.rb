@@ -1,7 +1,3 @@
 require "metriks-instrumental/version"
+require "metriks/reporter/instrumental"
 
-module Metriks
-  module Instrumental
-    # Your code goes here...
-  end
-end
