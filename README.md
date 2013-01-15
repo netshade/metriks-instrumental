@@ -10,7 +10,7 @@ Send metrics to [Instrumental][instrumental] every 60 seconds.
   require 'metriks-instrumental'
 
   # Using an API key
-  reporter = Metriks::Reporter::Instrumental.new(:api_key => "Your Instrumental API key")
+  reporter = Metriks::Reporter::Instrumental.new(:api_token => "Your Instrumental API key")
 
   # Using an already instantiated agent
   reporter = Metriks::Reporter::Instrumental.new(:agent => existing_instrumental_agent)
