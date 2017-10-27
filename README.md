@@ -1,3 +1,5 @@
+# NOTE This gem is unsupported / unofficial
+
 # metriks-instrumental
 
 A gem to report your [Metriks][metriks] data to [Instrumental][instrumental].  
